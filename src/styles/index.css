@@ -1,3 +1,48 @@
-/* 
-    General Styles
-*/
+
+body {
+    background-color: rgb(150, 105, 140);
+    color: white;
+
+}
+
+.single-card {
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.single-image {
+    height: 100%;
+    object-fit: cover;
+}
+.single-header {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.single-info-text {
+    font-size: 24px
+}
+.card-img-top {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0px 30%;
+    overflow: hidden;
+}
+
+.img-starship {
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+        object-position: 50% 0%;
+        overflow: hidden;
+}    
+
+.card-row {
+    display: flex;
+    overflow-x: scroll;
+  }
+
+.heart {
+    margin-left: 10px;
+}
