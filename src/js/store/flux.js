@@ -39,9 +39,10 @@ const getState = ({ getStore, getActions, setStore }) => {
 
 			addFav2: (name,type, id)=>{
 				let favoritesList = getStore().favorites2;
-				favoritesList.push(`<a href= "/${type}/${id}">${name}</a>`)
+				favoritesList.push(name);
 				setStore({ favorites2: favoritesList })
 			},
+			
 
 			addFav: (newFav) => {
 				let favoritesList = getStore().favorites;

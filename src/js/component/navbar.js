@@ -7,9 +7,9 @@ export const Navbar = () => {
     const { store, actions } = useContext(Context);
     return (
         <nav className="navbar navbar-light bg-light">
-            <a className="navbar-brand" href="/">
+            <Link to="/" className="navbar-brand">
                 <img src={starwarsUrl} width="100px" alt="" />
-            </a>
+            </Link>
             <button className="btn btn-primary dropdown-toggle mx-2 mb-0" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                 Favorites
             </button>

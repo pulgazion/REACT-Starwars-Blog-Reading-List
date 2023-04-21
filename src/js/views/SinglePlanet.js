@@ -10,7 +10,7 @@ export const SinglePlanet = (props) => {
     return(
         <div className="container-fluid">
             <div className="row my-3">
-                <h2>Planets<span className="text-muted"> / {planets[id]?.name}</span></h2>
+                <h2>Planets<span className="text-dark"> / {planets[id]?.name}</span></h2>
             </div>
             <div className="row bg-secondary m-5 border border-secondary single-card">
                 <div className="row">
@@ -19,12 +19,12 @@ export const SinglePlanet = (props) => {
                     </div>
                     <div className="col-8 p-4 ">
                         <h1 className="single-header">{planets[id]?.name}</h1>
-                        <p className="single-info-text mt-3 mb-0"><b>Population:&nbsp;&nbsp;</b><span className="text-muted">{planets[id]?.population}</span></p>
-                        <p className="single-info-text my-0"><b>Diameter:&nbsp;&nbsp;</b><span className="text-muted">{planets[id]?.diameter}km</span></p>
-                        <p className="single-info-text my-0"><b>Climate:&nbsp;&nbsp;</b><span className="text-muted">{planets[id]?.climate}</span></p>
-                        <p className="single-info-text my-0"><b>Terrain:&nbsp;&nbsp;</b><span className="text-muted">{planets[id]?.terrain}</span></p>
-                        <p className="single-info-text my-0"><b>Gravity:&nbsp;&nbsp;</b><span className="text-muted">{planets[id]?.gravity}</span></p>
-                        <p className="single-info-text my-0"><b>Description:&nbsp;&nbsp;</b><span className="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>
+                        <p className="single-info-text mt-3 mb-0"><b>Population:&nbsp;&nbsp;</b>{planets[id]?.population}</p>
+                        <p className="single-info-text my-0"><b>Diameter:&nbsp;&nbsp;</b>{planets[id]?.diameter}km</p>
+                        <p className="single-info-text my-0"><b>Climate:&nbsp;&nbsp;</b>{planets[id]?.climate}</p>
+                        <p className="single-info-text my-0"><b>Terrain:&nbsp;&nbsp;</b>{planets[id]?.terrain}</p>
+                        <p className="single-info-text my-0"><b>Gravity:&nbsp;&nbsp;</b>{planets[id]?.gravity}</p>
+                        <p className="single-info-text my-0"><b>Description:&nbsp;&nbsp;</b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
                     </div>
                 </div>
